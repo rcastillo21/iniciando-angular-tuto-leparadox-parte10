@@ -1,0 +1,4 @@
+<h3>Directivas para Cambiar comportamiento de los Elementos</h3>
+<input type="radio" name="colors" (click)="color='blue'">Blue
+<input type="radio" name="colors" (click)="color='Red'">Red
+<p [appMiDirectiva]="color" > {{ title }} </p>
